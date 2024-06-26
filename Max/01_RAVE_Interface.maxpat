@@ -624,19 +624,7 @@
 					"allowreorder" : 2,
 					"basictuning" : 440,
 					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "/Users/floris/Documents/Soundly Audio/Musical, Loop, Drums, RnB, Straight (100 BPM, 4 Bar) 03 SND62694.wav",
-								"filename" : "Musical, Loop, Drums, RnB, Straight (100 BPM, 4 Bar) 03 SND62694.wav",
-								"filekind" : "audiofile",
-								"id" : "u782002114",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
- ]
+						"clips" : [  ]
 					}
 ,
 					"expansion" : "grow",
@@ -946,7 +934,7 @@
 					"patching_rect" : [ 9.0, 952.0, 831.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2269.999945878982544, 1029.999975442886353, 2178.0, 35.0 ],
-					"text" : "nn~ model1-wasserstein_240409_streaming decode 0",
+					"text" : "nn~ Floris_sfx-library decode 0",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -964,7 +952,7 @@
 					"patching_rect" : [ 9.0, 264.0, 830.780487775802612, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2284.999945521354675, 353.333324909210205, 2139.0, 35.0 ],
-					"text" : "nn~ model1-wasserstein_240409_streaming encode 0",
+					"text" : "nn~ Floris_sfx-library encode 0",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1651,15 +1639,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Musical, Loop, Drums, RnB, Straight (100 BPM, 4 Bar) 03 SND62694.wav",
-				"bootpath" : "~/Documents/Soundly Audio",
-				"patcherrelativepath" : "../../../../../Documents/Soundly Audio",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "OSC_Setup.maxpat",
-				"bootpath" : "~/DAS_ORDNER/ZHdK/Master-Thesis/MasterThesis_Syncthing/MaxMsp",
+				"bootpath" : "~/DAS_ORDNER/Codebase/MaxRAVEInterface/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1667,20 +1648,20 @@
 , 			{
 				"name" : "Rahmen_1.jpg",
 				"bootpath" : "~/DAS_ORDNER/ZHdK/Master-Thesis/MasterThesis_Syncthing/Bilder",
-				"patcherrelativepath" : "../Bilder",
+				"patcherrelativepath" : "../../../ZHdK/Master-Thesis/MasterThesis_Syncthing/Bilder",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "abs_selector.maxpat",
-				"bootpath" : "~/DAS_ORDNER/ZHdK/Master-Thesis/MasterThesis_Syncthing/MaxMsp",
+				"bootpath" : "~/DAS_ORDNER/Codebase/MaxRAVEInterface/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_selector.maxpat",
-				"bootpath" : "~/DAS_ORDNER/ZHdK/Master-Thesis/MasterThesis_Syncthing/MaxMsp",
+				"bootpath" : "~/DAS_ORDNER/Codebase/MaxRAVEInterface/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1704,13 +1685,13 @@
 , 			{
 				"name" : "interaction-method-matrix-decoder.maxpat",
 				"bootpath" : "~/DAS_ORDNER/ZHdK/Master-Thesis/MasterThesis_Syncthing/MaxMsp",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../ZHdK/Master-Thesis/MasterThesis_Syncthing/MaxMsp",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jit_phys_world_stuff.maxpat",
-				"bootpath" : "~/DAS_ORDNER/ZHdK/Master-Thesis/MasterThesis_Syncthing/MaxMsp",
+				"bootpath" : "~/DAS_ORDNER/Codebase/MaxRAVEInterface/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1721,35 +1702,35 @@
 			}
 , 			{
 				"name" : "regression.maxpat",
-				"bootpath" : "~/DAS_ORDNER/ZHdK/Master-Thesis/MasterThesis_Syncthing/MaxMsp",
+				"bootpath" : "~/DAS_ORDNER/Codebase/MaxRAVEInterface/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sensor_data_matrix_TouchOSC.maxpat",
-				"bootpath" : "~/DAS_ORDNER/ZHdK/Master-Thesis/MasterThesis_Syncthing/MaxMsp",
+				"bootpath" : "~/DAS_ORDNER/Codebase/MaxRAVEInterface/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple_multislider.maxpat",
-				"bootpath" : "~/DAS_ORDNER/ZHdK/Master-Thesis/MasterThesis_Syncthing/MaxMsp",
+				"bootpath" : "~/DAS_ORDNER/Codebase/MaxRAVEInterface/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slice_and_scale_OSCdata.maxpat",
-				"bootpath" : "~/DAS_ORDNER/ZHdK/Master-Thesis/MasterThesis_Syncthing/MaxMsp",
+				"bootpath" : "~/DAS_ORDNER/Codebase/MaxRAVEInterface/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vec_accel.maxpat",
-				"bootpath" : "~/DAS_ORDNER/ZHdK/Master-Thesis/MasterThesis_Syncthing/MaxMsp",
+				"bootpath" : "~/DAS_ORDNER/Codebase/MaxRAVEInterface/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
